@@ -12,7 +12,7 @@ using BlockchainBasedWalletSystem.WebClient.Models;
 
 namespace BlockchainBasedWalletSystem.WebClient.Controllers
 {
-    [Authorize]
+    
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
